@@ -1,0 +1,66 @@
+/* General body styling */
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling header section using a class selector */
+.header {
+    text-align: center;
+    background-color: #0044cc;
+    color: white;
+    padding: 20px;
+}
+
+/* Styling the main title using an ID selector */
+#main-title {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+/* Styling paragraphs using a class selector */
+.text {
+    color: #333;
+    line-height: 1.8;
+    font-size: 1rem;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    width: 80%;
+    background-color: #fff;
+}
+
+/* Styling images using a class */
+.image {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px;
+    border: 5px solid #0044cc;
+    border-radius: 10px;
+}
+/* Styling another ID */
+#name{
+    transition: all 0.5s;
+    color: rgb(3, 112, 124);
+    cursor: pointer;
+}
+
+#name:hover{
+    color: rgb(124, 3, 3);
+    font-size: 2em;
+}
+
+/* Footer styling */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
